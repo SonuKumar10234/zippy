@@ -1,0 +1,147 @@
+*{margin:0px;padding:0px;}
+.main{height: 500px;font-family: 'Yaldevi', sans-serif;}
+.first{
+    background-image: url('image/bg2.jpg');
+    background-size:100% 100%;  
+    height:600px;
+    animation: slider 9s infinite linear;
+}
+@keyframes slider{
+    0%{
+        background-image: url('image/background\ \(1\).jpg');
+        background-size:100% 100%;  
+        height:600px;
+    }
+    33%{
+        background-image: url('image/background\ \(2\).jpg');
+        background-size:100% 100%;  
+        height:600px;
+    }
+    66%{
+        background-image: url('image/background\ \(3\).jpg');
+        background-size:100% 100%;  
+        height:600px;
+    }
+    99%{
+        background-image: url('image/background\ \(1\).jpg');
+        background-size:100% 100%;  
+        height:600px; 
+    }
+}
+#firstpara2{color: white;margin-left:20%;padding-top:2%;display: inline-block;margin-top: 20px;}
+.first ul li{color: white;list-style: none;display: inline;margin: 10px;}
+ul li a{text-decoration: none;color: white;}
+.first ul{margin-left:10%;display: inline-block;}
+.first #firstheading{color:white;margin-left: 20%;margin-top: 100px;}
+.first #firstpara{color: white;margin-left: 20%;margin-top: 2%;font-size: 20px;}
+.first .button1{padding:8px;width:120px;margin-left:20%;margin-top: 2%;border:none;display:inline-block;cursor:pointer;border-radius:2px;background:purple;color:white;}
+.first .button2{padding:8px;width:120px;border:none;display:inline-block;cursor:pointer;border-radius:2px;background:yellow;}
+.second{height:760px;width:100%;background:#B6CBCE;}
+.second #secondpara{text-align:center;padding-top:3%;}
+.second .upar{width: 100%;display: inline-block;}
+.second #para{float: left;margin-left: 30%;margin-top: 3%;font-size: 20px;}
+#fas{float: right;font-size: 200px;margin-right: 20%;margin-top: 2%;}
+.upar2{width: 80%;margin-top: 4%;height: 350px;margin-left: 70px;border-bottom: 1px solid black;}
+.upar3{float: left;margin-left: 15%;text-align: center;}
+#far{font-size: 30px;background: purple;color: white;border-radius: 50%;padding: 20px;}
+.upar4{float: left;margin-left: 13%;font-size: 50px;text-align: center;}
+#far2{font-size: 30px;background: purple;color: white;border-radius: 50%;padding: 20px;}
+.upar5{float: left;margin-left: 15%;font-size: 50px;text-align: center;}
+#fas2{font-size: 30px;background: purple;color: white;border-radius: 50%;padding: 20px;}
+#uparheading{font-size: 30px;}
+#uparheading2{font-size: 30px;}
+#uparheading3{font-size: 30px;}
+#uparpara{font-size: 15px;margin-top: 10px;}
+#uparpara2{font-size: 15px;margin-top: 10px;}
+#uparpara3{font-size: 15px;margin-top: 10px;}
+.uparbutton{color:white;padding:8px;width:120px;margin-top: 20%;background:purple;border:none;cursor:pointer;border-radius:2px;}
+.uparbutton2{color:black;padding:8px;width:120px;margin-top: 20%;background:yellow;border:none;cursor:pointer;border-radius:2px;}
+.uparbutton3{color:black;padding:8px;width:120px;margin-top: 20%;background:yellow;border:none;cursor:pointer;border-radius:2px;}
+.third{background: #C0C0C0;width: 100%;height:500px;margin-bottom: 50px;}
+.third #thirdpara{text-align: center;margin-bottom: 20px;}
+.third2{background: #C0C0C0;width:25%;height: 700px;float: left;}
+.third2 img{width: 100%;height: 450px;}
+.third3{background: #B6CBCE;width:25%;height: 700px;float: left;}
+.third3 img{width: 100%;height: 450px;}
+.third4{background:#C0C0C0;width:25%;height: 700px;float: left;}
+.third4 img{width: 100%;height: 450px;}
+.third5{background:#B6CBCE;width:25%;height: 700px;float: right;}
+.third5 img{width: 100%;height: 450px;}
+.thirdheading{margin-top: 25px;margin-left: 20px;}
+.thirdpara{margin-top: 10px;margin-left: 20px;}
+.thirdbutton{margin-top: 30px;padding: 10px;width: 150px;margin-left: 20px;cursor: pointer;background: purple;border: none;color:white;}
+.thirdbutton2{margin-top: 30px;padding: 10px;width: 150px;margin-left: 20px;background: yellow;border: none;cursor: pointer;}
+.fourth{background:#B6CBCE;width: 100%;height: 500px;}
+#fourthheading{text-align: center;}
+.fourth2{width:20%;height:200px;float: left;margin-top: 20px;margin-left: 250px;border-right: 1px solid black;}
+.fourth3{width:20%;height:200px;float: left;margin-top: 20px;border-right: 1px solid black;}
+.fourth4{width:20%;height:200px;float:left;margin-top: 20px;}
+#fourthheading2{text-align: center;}
+#fourthpara{text-align: center;margin-top: 10px;}
+#fourthpara2{text-align:center;margin-top: 10px;}
+.fourthbutton{margin-left: 98px;width: 60px;margin-top: 20px;padding: 2px;background: purple;border: none;border-radius: 2px;color:white;cursor:pointer;}
+.fourthbutton2{margin-left: 98px;width: 60px;margin-top: 20px;padding: 2px;background: yellow;border: none;border-radius: 2px;cursor:pointer;}
+.fourthbutton3{margin-left: 98px;width: 60px;margin-top: 20px;padding: 2px;background: yellow;border: none;border-radius: 2px;cursor:pointer;}
+.five{background:#C0C0C0;width: 100%;height: 500px;}
+#fivepara{text-align: center;padding-top:30px;}
+.video{margin-top:30px;width: 400px;height: 300px;float: left;}
+.video2{margin-top:30px;width: 400px;height: 300px;margin-left: 27px;}
+.video3{margin-top:30px;width: 400px;height: 300px;float: right;}
+.six{background:#B6CBCE;width: 100%;height: 900px;}
+#sixheading{text-align: center;padding-top:50px;}
+.image1{width: 100%;height: 400px;}
+#soft{width: 240px;height: 240px;border-radius: 50%;margin-top: 50px;text-align: center;}
+#soft2{width: 240px;height: 240px;border-radius: 50%;margin-top: 50px;text-align: center;}
+#soft3{width: 240px;height: 240px;border-radius: 50%;margin-top: 50px;text-align: center;}
+.image2{width: 100%;margin-top: 0px;height: 400px;}
+.imageimage{float: left;margin-left: 200px;}
+.imageimage2{float: left;margin-left: 50px;}
+.imageimage3{float: left;margin-left: 50px;}
+.sixheading2{text-align: center;}
+.sixheading3{text-align: center;}
+.sixheading4{text-align: center;}
+.sixheading5{text-align: center;}
+.sixheading6{text-align: center;}
+.sixheading7{text-align: center;}
+.imageimagepara{text-align: center;margin-top: 5px;}
+.seven{background: #C0C0C0;width:100%;height:680px;text-align: center;}
+#sevenheading{text-align: center;padding-top: 50px;}
+.sevenimage{width: 600px;height: 400px;margin-top: 40px;}
+.eight{width: 100%;height: 300px;background-image:url('image/nature\ \(1\).jpg');background-size:cover;}
+#eightheading{text-align: center;padding-top:30px;}
+#email{margin-left: 450px;width: 300px;margin-top: 50px;height: 50px;}
+#eightbutton{height: 50px;width: 120px;background: yellow;border: none;}
+.nine{background: #C0C0C0;width: 100%;height: 650px;}
+.nine1{width: 32%;text-align: center;float:left;margin-top: 20px;}
+.nine2{width: 32%;text-align: center;float: left;margin-left: 25px;margin-top: 20px;}
+.nine3{width: 32%;text-align: center;float: right;margin-top: 20px;}
+#nineheading{text-align: center;padding-top :30px;}
+.nineimage{width: 300px;height: 300px;}
+.ninepara{margin-top: 20px;}
+.ninepara2{margin-top: 10px;}
+.nineheading2{margin-top: 10px;}
+.ninebutton{margin-top: 15px;width: 100px;padding: 10px;cursor: pointer;border:none;background:purple;color:white;}
+.ninebutton2{margin-top: 15px;width: 100px;padding: 10px;cursor: pointer;border:none;background:yellow;}
+.ten{background: #B6CBCE;width: 100%;height: 600px;}
+.ten2{width: 50%;height: 600px;float: left;}
+.ten3{background: #C0C0C0;width: 50%;height: 600px;float: right;}
+#tenheading{margin-left:30px;margin-top: 30px;}
+.teninput{width: 250px;height: 30px;margin-left: 30px;}
+.ten3para{margin-left: 30px;margin-top: 20px;}
+.tentextarea{margin-left:30px;width:250px;height:100px;}
+.tensubmit{margin-left:30px;width:253px;height:30px;border:none;background: purple;color:white;cursor:pointer;}
+.eleven{background: #C0C0C0;width:100%;height: 200px;}
+.elevenheading{padding-top: 50px;}
+.elevenpara{margin-top: 10px;}
+.eleven1{float: left;text-align: center;margin-left: 340px;}
+.eleven2{float: left;text-align: center;margin-left: 50px;}
+.eleven3{float: left;text-align: center;margin-left: 50px;}
+#linkedin,#twitter,#facebook{margin-top: 10px;font-size: 30px;}
+#linkedin{float:left;}
+#facebook{float:right;}
+#telegram,#instagram,#youtube{margin-top: 10px;font-size: 30px;}
+#telegram{float:left;}
+#youtube{float:right;}
+#youtube:hover{font-size: 50px;}
+.mks{background: #C0C0C0;text-align: center;}
+#mks{opacity: 0.2;}
